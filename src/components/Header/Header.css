@@ -1,0 +1,41 @@
+.header-container{
+    width: 100%;
+    border-bottom: 2px solid rgba(128, 128, 128, 0.74);
+    background-color: #c5c5c581;
+}
+
+.header-components{
+    margin: 0 40px;
+    display: flex;
+    align-items: center;
+    justify-content: space-between;
+}
+
+.header-left{
+    flex: 1;
+}
+
+.header-right{
+    flex: 1;
+}
+
+.header-right ul{
+    display: flex;
+    align-items: center;
+    justify-content: space-around;
+}
+
+
+.header-right li{
+    list-style: none;
+    flex: 1;
+    font-weight: 500;
+    cursor: pointer;
+    text-align: center;
+    font-size: 18px;
+    color: #fff;
+    background-color: #4e129c;
+    padding: 0 15px;
+    border: 2px solid black;
+}
+
